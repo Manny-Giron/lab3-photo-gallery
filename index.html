@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Photo Gallery</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
 
-    <body>
-        <h1>Photo Gallery</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
-        <section id="keySetup">
-            <p>To start, please enter your Unsplash API key:</p>
-            <input id="key" placeholder="Enter API Key"/>
-            <input id="keySubmit" type="submit" value="Save Key"/>
-        </section>
+<body>
+    <h1>Photo Gallery</h1>
 
-        <section id="gallerySetup">
-            <p>Please enter a search term to populate the gallery:</p>
-            <input id="searchTerm" placeholder="e.g., mountains, cats"/>
-            <input id="searchSubmit" type="submit" value="Search"/>
-            <div id="gallery"> <!-- images will go here --> </div>
-        </section>
+    <section id="keySetup">
+        <p>To start, please enter your Unsplash API key:</p>
+        <input id="key" placeholder="Enter API Key" />
+        <input id="keySubmit" type="submit" value="Save Key" />
+    </section>
 
-        <script src="js/api-script.js"></script>
-    </body>
+    <section id="gallerySetup">
+        <p>Please enter a search term to populate the gallery:</p>
+        <input id="searchTerm" placeholder="e.g., mountains, cats" />
+        <input id="searchSubmit" type="submit" value="Search" />
+        <div id="gallery"> <!-- images will go here --> </div>
+    </section>
+
+    <script src="js/api-script.js"></script>
+</body>
+
 </html>
